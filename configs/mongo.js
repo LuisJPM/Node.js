@@ -26,7 +26,7 @@ export const dbConnection = async () => {
         mongoose.connect(process.env.URI_MONGO, {
             serverSelectionTimeoutMS: 5000,
             maxPoolSize: 50,
-        });
+        });       
     }catch(error){
         console.log('Database connection failed', error);
     }
