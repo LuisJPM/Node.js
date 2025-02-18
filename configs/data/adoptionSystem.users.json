@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {
+      "$oid": "67b4d8aa12345678c9702222"
+    },
+    "name": "Luis",
+    "surname": "Martínez",
+    "username": "lmartinez",
+    "email": "luis.martinez@gmail.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$Q5eEWKbnyXbhaH8s8T+njw$ksrWh1zONcc6taddI8KlnXiRg9uVbxoMEDAyW0lz/lk",
+    "profilePicture": null,
+    "phone": "98765432",
+    "role": "USER_ROLE",
+    "estado": false,
+    "createdAt": {
+      "$date": "2025-02-10T12:30:45.321Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-10T12:30:45.321Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67b4d8ff12345678c9701111"
+    },
+    "name": "Carlos",
+    "surname": "Hernández",
+    "username": "chernandez",
+    "email": "carlos.hernandez@gmail.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$iuIh6JyqKtkl4SUIle0nng$PrEW6aUeb2NFvii2fhtpSixxhIinoS71cRibiAzpbQA",
+    "profilePicture": null,
+    "phone": "87654321",
+    "role": "ADMIN_ROLE",
+    "estado": false,
+    "createdAt": {
+      "$date": "2025-02-10T13:45:30.789Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-10T13:45:30.789Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67b4e9cc87654321b3233333"
+    },
+    "name": "Fernando",
+    "surname": "Lopez",
+    "username": "flopez",
+    "email": "fernando.lopez@gmail.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$firJQHqER1nAO8E/y1Ee+g$1HNbgmX8BJrGR/l6zvhyGZkmJAPwmNDAwD2UaMnfI1M",
+    "profilePicture": null,
+    "phone": "76543210",
+    "role": "ADMIN_ROLE",
+    "estado": true,
+    "google": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67b4f0dd23456789c9704444"
+    },
+    "name": "Diego",
+    "surname": "Rodríguez",
+    "username": "drodriguez",
+    "email": "diego.rodriguez@gmail.com",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$8SnKSm+4RWWrWojtD4SPRA$IS8tPm21Buk1hyvBzEIOLhB2gbjtKgEtN1WxHvfgct0",
+    "profilePicture": null,
+    "phone": "65432109",
+    "role": "ADMIN_ROLE",
+    "estado": true,
+    "google": false,
+    "__v": 0
+  }
+]

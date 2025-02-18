@@ -1,0 +1,40 @@
+[
+  {
+    "_id": {
+      "$oid": "67b4d8ff12345678c9701111"
+    },
+    "name": "Rocky",
+    "description": "golden retriever",
+    "age": 5,
+    "type": "PERRO",
+    "keeper": {
+      "$oid": "67b4d8aa12345678c9702222"
+    },
+    "status": true,
+    "createdAt": {
+      "$date": "2025-02-10T14:30:25.123Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-10T14:30:25.123Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67b4e9cc87654321b3233333"
+    },
+    "name": "Bruno",
+    "description": "pastor alemán",
+    "age": 7,
+    "type": "PERRO",
+    "keeper": {
+      "$oid": "67b4d8aa12345678c9702222"
+    },
+    "status": false,
+    "createdAt": {
+      "$date": "2025-02-10T16:45:10.987Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-10T16:46:30.654Z"
+    }
+  }
+]
